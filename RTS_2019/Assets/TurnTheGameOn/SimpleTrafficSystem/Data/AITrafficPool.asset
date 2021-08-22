@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfc7953aac887be49a21bf8e103bf110, type: 3}
+  m_Name: AITrafficPool
+  m_EditorClassIdentifier: 
+  trafficPrefabs:
+  - {fileID: 3569640239038258424, guid: 34cb7fda8a55cde488b4c7c41d9c88b6, type: 3}
+  - {fileID: 3569640239038258424, guid: 168e1e4800618c84580b88d609bb2945, type: 3}
+  - {fileID: 3569640239038258424, guid: f6d690909499d1b429e198bd6e7f95aa, type: 3}
+  - {fileID: 3569640239038258424, guid: ce99c455af2b972479f40b54c18aa8da, type: 3}
+  - {fileID: 3569640239038258424, guid: 33eb95bc810aad34180e91f589aa7fff, type: 3}
+  - {fileID: 3569640239038258424, guid: 81808cbe8f5e702439660aa40f53591b, type: 3}
+  - {fileID: 3569640239038258424, guid: 5264bfc256584b94db757e11d0a50448, type: 3}
+  - {fileID: 3569640239038258424, guid: 405ed787b2cbad34c9dd867072d5ae7a, type: 3}
+  - {fileID: 3569640239038258424, guid: da034b94db7386e44bf69b0b71b87cac, type: 3}
+  density: 200
+  spawnRate: 2
+  minSpawnZone: 50
+  cullHeadLight: 100
+  actizeZone: 225
+  spawnZone: 350
+  hideSpawnPointsInEditMode: 0
+  showGizmos: 1
+  minSpawnZoneColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 0.45490196}
+  cullHeadLightZone: {r: 1, g: 0, b: 0, a: 0.39215687}
+  activeZoneColor: {r: 0, g: 0.044787005, b: 0.6117647, a: 0.26666668}
+  spawnZoneColor: {r: 0.88086605, g: 0, b: 1, a: 0.24313726}
+  debugProcessTime: 0
