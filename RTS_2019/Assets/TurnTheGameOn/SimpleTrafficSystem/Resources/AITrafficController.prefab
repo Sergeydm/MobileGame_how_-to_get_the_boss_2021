@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6626368814616383543
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6626368814616383545}
+  - component: {fileID: 6626368814616383546}
+  m_Layer: 0
+  m_Name: AITrafficController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6626368814616383545
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6626368814616383543}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6626368814616383546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6626368814616383543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c342c37dd3443c68a815fa69ec4a043, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AITrafficDebug: {fileID: 11400000, guid: 11e40ae9f0b146a6ae922fd037a04cec, type: 2}
+  _AITrafficPool: {fileID: 11400000, guid: f83c272e9855ef0478bc3404cb1c670d, type: 2}
+  centerPoint: {fileID: 0}
+  usePooling: 0
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 1073741824
+  frontSensorSize: {x: 1.3, y: 1, z: 0.001}
+  frontSensorLength: 10
+  sideSensorSize: {x: 14, y: 1, z: 0.001}
+  sideSensorLength: 5
+  speedMultiplier: 2.2369363
+  accelerationPower: 1500
+  steerSensitivity: 0.02
+  maxSteerAngle: 37
+  stopThreshold: 3
+  minDrag: 0.3
+  minAngularDrag: 0.3
+  enableLaneChanging: 0
+  changeLaneTrigger: 3
+  minSpeedToChangeLanes: 10
+  changeLaneCooldown: 5
